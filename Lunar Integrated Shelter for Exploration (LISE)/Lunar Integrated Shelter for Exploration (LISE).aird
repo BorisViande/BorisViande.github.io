@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/5.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:concern="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.interaction="http://www.polarsys.org/capella/core/interaction/5.0.0" xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/5.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/concern http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis uid="_SgT0MPXkEeyVt_E3zOxl6w" selectedViews="_Si4nEPXkEeyVt_E3zOxl6w _SkRuMPXkEeyVt_E3zOxl6w _Spm6IPXkEeyVt_E3zOxl6w _Srl3IPXkEeyVt_E3zOxl6w _SuFxgPXkEeyVt_E3zOxl6w _SukSoPXkEeyVt_E3zOxl6w _Sve4oPXkEeyVt_E3zOxl6w" version="14.6.0.202110251100">
     <semanticResources>Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).afm</semanticResources>
     <semanticResources>Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella</semanticResources>
@@ -11,9 +11,13 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_Spm6IPXkEeyVt_E3zOxl6w">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_WCpSgPXkEeyVt_E3zOxl6w" name="[OCB] Operational Capabilities for LISE" repPath="#_WCgIkPXkEeyVt_E3zOxl6w" changeId="44141a3a-f7cb-4eea-9609-51bfa57903a0">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_WCpSgPXkEeyVt_E3zOxl6w" name="[OCB] Operational Capabilities for LISE" repPath="#_WCgIkPXkEeyVt_E3zOxl6w" changeId="337372b9-e9eb-4cde-a747-c253f88aa6a7">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a84009c3-5585-4679-8d83-c78b1b7dffb5"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oIdf8PuYEeydbPFqZqhrpw" name="[OAB] Operational Architecture" repPath="#_oIWLMPuYEeydbPFqZqhrpw" changeId="f968f6db-2d87-4737-b333-264371644921">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#f4924c2d-2ae2-42e8-ab19-bcb75865e4da"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_Srl3IPXkEeyVt_E3zOxl6w">
@@ -52,15 +56,112 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ljjbovXkEeyVt_E3zOxl6w"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_ljX1cPXkEeyVt_E3zOxl6w" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ljX1cfXkEeyVt_E3zOxl6w" x="760" y="150" width="70" height="46"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ljX1cfXkEeyVt_E3zOxl6w" x="940" y="160" width="70" height="46"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GLjKAPuiEeydbPFqZqhrpw" type="2001" element="_GK_JUPuiEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_GLkYIPuiEeydbPFqZqhrpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GPpm4PuiEeydbPFqZqhrpw" x="-12" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GPyJwPuiEeydbPFqZqhrpw" type="3005" element="_GPoYwPuiEeydbPFqZqhrpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_GPyJwfuiEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPyJwvuiEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GLjKAfuiEeydbPFqZqhrpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPnxsPuiEeydbPFqZqhrpw" x="510" y="80" width="70" height="46"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_MY-8oPuiEeydbPFqZqhrpw" type="2001" element="_MYtP0PuiEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_MY_jsPuiEeydbPFqZqhrpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_MY_jsfuiEeydbPFqZqhrpw" x="-12" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_MZG4cPuiEeydbPFqZqhrpw" type="3005" element="_MYvFAPuiEeydbPFqZqhrpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_MZG4cfuiEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MZG4cvuiEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_MY-8ofuiEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MY-8ovuiEeydbPFqZqhrpw" x="790" y="280" width="70" height="46"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Q4vsgPuiEeydbPFqZqhrpw" type="2001" element="_Q3-QcvuiEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_Q4yIwPuiEeydbPFqZqhrpw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Q988ovuiEeydbPFqZqhrpw" x="-12" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Q-CcMPuiEeydbPFqZqhrpw" type="3005" element="_Q988ofuiEeydbPFqZqhrpw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Q-CcMfuiEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q-CcMvuiEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Q4vsgfuiEeydbPFqZqhrpw" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q988oPuiEeydbPFqZqhrpw" x="940" y="270" width="70" height="46"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_WC-CovXkEeyVt_E3zOxl6w"/>
+        <edges xmi:type="notation:Edge" xmi:id="_KO4ckPuiEeydbPFqZqhrpw" type="4001" element="_KObwoPuiEeydbPFqZqhrpw" source="_XdguAPXkEeyVt_E3zOxl6w" target="_GLjKAPuiEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_KO5DoPuiEeydbPFqZqhrpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KO5DofuiEeydbPFqZqhrpw" x="11" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KO5DovuiEeydbPFqZqhrpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KO5Do_uiEeydbPFqZqhrpw" x="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KO5qsPuiEeydbPFqZqhrpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KO5qsfuiEeydbPFqZqhrpw" x="-9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KO4ckfuiEeydbPFqZqhrpw" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KO4ckvuiEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KO4ck_uiEeydbPFqZqhrpw" points="[30, -46, -60, 90]$[90, -136, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KO640PuiEeydbPFqZqhrpw" id="(0.14285714285714285,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KO640fuiEeydbPFqZqhrpw" id="(0.5714285714285714,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_akrmUPuiEeydbPFqZqhrpw" type="4001" element="_akh1UPuiEeydbPFqZqhrpw" source="_Q4vsgPuiEeydbPFqZqhrpw" target="_MY-8oPuiEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_aksNYPuiEeydbPFqZqhrpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aksNYfuiEeydbPFqZqhrpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aksNYvuiEeydbPFqZqhrpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aksNY_uiEeydbPFqZqhrpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aksNZPuiEeydbPFqZqhrpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aksNZfuiEeydbPFqZqhrpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_akrmUfuiEeydbPFqZqhrpw" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_akrmUvuiEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_akrmU_uiEeydbPFqZqhrpw" points="[0, 0, 80, 0]$[-80, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aks0cPuiEeydbPFqZqhrpw" id="(0.0,0.5434782608695652)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aks0cfuiEeydbPFqZqhrpw" id="(1.0,0.32608695652173914)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_bA0vwPuiEeydbPFqZqhrpw" type="4001" element="_bAn7dPuiEeydbPFqZqhrpw" source="_Q4vsgPuiEeydbPFqZqhrpw" target="_ljXOYPXkEeyVt_E3zOxl6w">
+          <children xmi:type="notation:Node" xmi:id="_bA1W0PuiEeydbPFqZqhrpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bA1W0fuiEeydbPFqZqhrpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bA1W0vuiEeydbPFqZqhrpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bA1W0_uiEeydbPFqZqhrpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bA1W1PuiEeydbPFqZqhrpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bA1W1fuiEeydbPFqZqhrpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_bA0vwfuiEeydbPFqZqhrpw" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bA0vwvuiEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bA0vw_uiEeydbPFqZqhrpw" points="[0, 0, 0, 64]$[0, -64, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bA194PuiEeydbPFqZqhrpw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bA194fuiEeydbPFqZqhrpw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_eMYs0PuiEeydbPFqZqhrpw" type="4001" element="_eML4hvuiEeydbPFqZqhrpw" source="_ljXOYPXkEeyVt_E3zOxl6w" target="_XdguAPXkEeyVt_E3zOxl6w">
+          <children xmi:type="notation:Node" xmi:id="_eMZT4PuiEeydbPFqZqhrpw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eMZT4fuiEeydbPFqZqhrpw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eMZT4vuiEeydbPFqZqhrpw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eMZT4_uiEeydbPFqZqhrpw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eMZT5PuiEeydbPFqZqhrpw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eMZT5fuiEeydbPFqZqhrpw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_eMYs0fuiEeydbPFqZqhrpw" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_eMYs0vuiEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eMYs0_uiEeydbPFqZqhrpw" points="[0, 0, 420, -10]$[-420, 10, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eMZ68PuiEeydbPFqZqhrpw" id="(0.0,0.43478260869565216)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eMZ68fuiEeydbPFqZqhrpw" id="(1.0,0.43478260869565216)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_WDYSUPXkEeyVt_E3zOxl6w" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_WDY5YPXkEeyVt_E3zOxl6w"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Xc1_oPXkEeyVt_E3zOxl6w" name="Enable human exploration of the moon" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Xc1_oPXkEeyVt_E3zOxl6w" name="Enable human exploration of the moon" outgoingEdges="_KObwoPuiEeydbPFqZqhrpw" incomingEdges="_eML4hvuiEeydbPFqZqhrpw" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#084f87b4-2498-4512-be68-26d474db4195"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#084f87b4-2498-4512-be68-26d474db4195"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Xc8tUPXkEeyVt_E3zOxl6w" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">
@@ -68,18 +169,273 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ljGIoPXkEeyVt_E3zOxl6w" name="OperationalCapability 2" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ljGIoPXkEeyVt_E3zOxl6w" name="Provide habitable space for astronauts on the moon" outgoingEdges="_eML4hvuiEeydbPFqZqhrpw" incomingEdges="_bAn7dPuiEeydbPFqZqhrpw" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#24030687-ce71-43b3-9e6c-5dd642c39afb"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#24030687-ce71-43b3-9e6c-5dd642c39afb"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ljH90PXkEeyVt_E3zOxl6w" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_GK_JUPuiEeydbPFqZqhrpw" name="Enable scientific research on the moon" incomingEdges="_KObwoPuiEeydbPFqZqhrpw" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#4073dc3d-51a3-4d0a-a3c5-13f59a6e743d"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#4073dc3d-51a3-4d0a-a3c5-13f59a6e743d"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GPoYwPuiEeydbPFqZqhrpw" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">
+        <customFeatures>uid</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_MYtP0PuiEeydbPFqZqhrpw" name="Provide storage capacity" incomingEdges="_akh1UPuiEeydbPFqZqhrpw" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a0f71279-e4f3-4f7d-b755-f23db9d1828c"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a0f71279-e4f3-4f7d-b755-f23db9d1828c"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_MYvFAPuiEeydbPFqZqhrpw" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Q3-QcvuiEeydbPFqZqhrpw" name="Provide rover hosting capabilities" outgoingEdges="_akh1UPuiEeydbPFqZqhrpw _bAn7dPuiEeydbPFqZqhrpw" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#06b082eb-597a-4df1-ba31-761d77afa744"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#06b082eb-597a-4df1-ba31-761d77afa744"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Q988ofuiEeydbPFqZqhrpw" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">
+        <customFeatures>uid</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_KObwoPuiEeydbPFqZqhrpw" name="« i »" sourceNode="_Xc1_oPXkEeyVt_E3zOxl6w" targetNode="_GK_JUPuiEeydbPFqZqhrpw">
+      <target xmi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#78ca42f4-10bc-471a-9f70-b3e806904a67"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#78ca42f4-10bc-471a-9f70-b3e806904a67"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_KOgpIPuiEeydbPFqZqhrpw" lineStyle="dot" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_OC_Include']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_KOgpIfuiEeydbPFqZqhrpw" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_OC_Include']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_akh1UPuiEeydbPFqZqhrpw" name="« e »" sourceNode="_Q3-QcvuiEeydbPFqZqhrpw" targetNode="_MYtP0PuiEeydbPFqZqhrpw">
+      <target xmi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#9c83a58f-5d6d-49c8-b21d-c5939196f908"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#9c83a58f-5d6d-49c8-b21d-c5939196f908"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_akjDcPuiEeydbPFqZqhrpw" lineStyle="dot" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_OC_Extends']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_akjDcfuiEeydbPFqZqhrpw" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_OC_Extends']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bAn7dPuiEeydbPFqZqhrpw" name="« e »" sourceNode="_Q3-QcvuiEeydbPFqZqhrpw" targetNode="_ljGIoPXkEeyVt_E3zOxl6w">
+      <target xmi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#53e15808-2a59-464d-8530-2f681fb3090b"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#53e15808-2a59-464d-8530-2f681fb3090b"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_bAqXsPuiEeydbPFqZqhrpw" lineStyle="dot" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_OC_Extends']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_bAqXsfuiEeydbPFqZqhrpw" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_OC_Extends']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_eML4hvuiEeydbPFqZqhrpw" name="« e »" sourceNode="_ljGIoPXkEeyVt_E3zOxl6w" targetNode="_Xc1_oPXkEeyVt_E3zOxl6w">
+      <target xmi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#c5e23a33-e39c-46f2-81d1-495fe9102f9b"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#c5e23a33-e39c-46f2-81d1-495fe9102f9b"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_eML4h_uiEeydbPFqZqhrpw" lineStyle="dot" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_OC_Extends']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_eML4iPuiEeydbPFqZqhrpw" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_OC_Extends']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
     <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_WChWsPXkEeyVt_E3zOxl6w"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer"/>
     <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a84009c3-5585-4679-8d83-c78b1b7dffb5"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_oIWLMPuYEeydbPFqZqhrpw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_oItXkPuYEeydbPFqZqhrpw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_oItXkfuYEeydbPFqZqhrpw" type="Sirius" element="_oIWLMPuYEeydbPFqZqhrpw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_rKhbYPubEeydbPFqZqhrpw" type="2002" element="_rJlAMPubEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_rKls0PubEeydbPFqZqhrpw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_rKmT4PubEeydbPFqZqhrpw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_f9RboPuiEeydbPFqZqhrpw" type="3007" element="_f862UPuiEeydbPFqZqhrpw">
+              <children xmi:type="notation:Node" xmi:id="_f9SCsPuiEeydbPFqZqhrpw" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_f9SCsfuiEeydbPFqZqhrpw" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_f9SpwPuiEeydbPFqZqhrpw" type="3003" element="_f89SkPuiEeydbPFqZqhrpw">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_f9SpwfuiEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="11"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f9SpwvuiEeydbPFqZqhrpw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f9RbofuiEeydbPFqZqhrpw" fontColor="4210779" fontName=".SF NS" fontHeight="14"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f9RbovuiEeydbPFqZqhrpw" x="25" y="44" width="141" height="61"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_rKmT4fubEeydbPFqZqhrpw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_rKmT4vubEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rKhbYfubEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rKhbYvubEeydbPFqZqhrpw" x="240" y="90" width="211" height="641"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zbjdcPubEeydbPFqZqhrpw" type="2002" element="_za4vEPubEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_zblSoPubEeydbPFqZqhrpw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_zbnH0PubEeydbPFqZqhrpw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_zbnH0fubEeydbPFqZqhrpw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_zbnH0vubEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zbjdcfubEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zbjdcvubEeydbPFqZqhrpw" x="490" y="90" width="931" height="151"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3je8IPubEeydbPFqZqhrpw" type="2002" element="_3jOdcPubEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_3jgKQPubEeydbPFqZqhrpw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_3jgKQfubEeydbPFqZqhrpw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3jgKQvubEeydbPFqZqhrpw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3jgKQ_ubEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3je8IfubEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3je8IvubEeydbPFqZqhrpw" x="490" y="270" width="929" height="281"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="__F0FIPubEeydbPFqZqhrpw" type="2002" element="__Fk0kPubEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="__F0FI_ubEeydbPFqZqhrpw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="__F0FJPubEeydbPFqZqhrpw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="__F0FJfubEeydbPFqZqhrpw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="__F0FJvubEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__F0FIfubEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__F0FIvubEeydbPFqZqhrpw" x="490" y="580" width="921" height="149"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_p1XCcPufEeydbPFqZqhrpw" type="2002" element="_gnN34fufEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_p1XpgPufEeydbPFqZqhrpw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_p1XpgfufEeydbPFqZqhrpw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_p1XpgvufEeydbPFqZqhrpw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_p1Xpg_ufEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_p1XCcfufEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p1XCcvufEeydbPFqZqhrpw" x="20" y="34" width="183" height="753"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_td098PufEeydbPFqZqhrpw" type="2002" element="_tdUAkvufEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_td098_ufEeydbPFqZqhrpw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_td099PufEeydbPFqZqhrpw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_td099fufEeydbPFqZqhrpw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_td099vufEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_td098fufEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tf9r8PufEeydbPFqZqhrpw" x="1440" y="90" width="364" height="684"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_z2-RUPufEeydbPFqZqhrpw" type="2002" element="_z2uZsfufEeydbPFqZqhrpw">
+          <children xmi:type="notation:Node" xmi:id="_z2-4YPufEeydbPFqZqhrpw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_z2-4YfufEeydbPFqZqhrpw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_z2-4YvufEeydbPFqZqhrpw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_z2-4Y_ufEeydbPFqZqhrpw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_z2-RUfufEeydbPFqZqhrpw" fontName=".SF NS" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z4qTYPufEeydbPFqZqhrpw" x="490" y="750" width="931" height="151"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_oItXkvuYEeydbPFqZqhrpw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_oI16cPuYEeydbPFqZqhrpw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_oI16cfuYEeydbPFqZqhrpw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_rJlAMPubEeydbPFqZqhrpw" name="Mission crew">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#2440b415-164f-4292-ac70-e575f1566c34"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#2440b415-164f-4292-ac70-e575f1566c34"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rJqfwPubEeydbPFqZqhrpw" labelSize="14" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_f862UPuiEeydbPFqZqhrpw" name="OperationalActivity 1" width="7" height="7" resizeKind="NSEW">
+        <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#8778f0e0-7bae-4860-90d9-7f1f9db4f7d3"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#8778f0e0-7bae-4860-90d9-7f1f9db4f7d3"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_f89SkPuiEeydbPFqZqhrpw" labelSize="14" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" color="247,218,116">
+          <customFeatures>labelSize</customFeatures>
+          <customFeatures>labelColor</customFeatures>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@subNodeMappings[name='OAB_Activity']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@subNodeMappings[name='OAB_Activity']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_za4vEPubEeydbPFqZqhrpw" name="Mission Control Centre">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a7eba328-45d0-4cc6-af78-da2ba23489d4"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a7eba328-45d0-4cc6-af78-da2ba23489d4"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_za7yYPubEeydbPFqZqhrpw" labelSize="14" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_3jOdcPubEeydbPFqZqhrpw" name="HLS">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#89085e69-1e58-4fb6-bfd1-229700b234ff"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#89085e69-1e58-4fb6-bfd1-229700b234ff"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3jPEgPubEeydbPFqZqhrpw" labelSize="14" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="__Fk0kPubEeydbPFqZqhrpw" name="Lunar Surface">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#5c37a407-4229-4a40-8fce-ef59fde79bcc"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#5c37a407-4229-4a40-8fce-ef59fde79bcc"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="__FmCsPubEeydbPFqZqhrpw" labelSize="14" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_gnN34fufEeydbPFqZqhrpw" name="Mission equipment">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a45f6baf-74ee-4508-8a67-ca6c5e86cb82"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a45f6baf-74ee-4508-8a67-ca6c5e86cb82"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_gsUaUPufEeydbPFqZqhrpw" labelSize="14" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <customFeatures>uid</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_tdUAkvufEeydbPFqZqhrpw" name="Mission Stakeholders">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#05a2f486-7a2c-48fa-9aa4-3814720d7870"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#05a2f486-7a2c-48fa-9aa4-3814720d7870"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_tf9r8fufEeydbPFqZqhrpw" labelSize="14" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <customFeatures>uid</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_z2uZsfufEeydbPFqZqhrpw" name="Rover">
+      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#1895179a-1213-42ca-9e5e-3da09e59ff20"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#1895179a-1213-42ca-9e5e-3da09e59ff20"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_z4qTYfufEeydbPFqZqhrpw" labelSize="14" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <customFeatures>uid</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
+    <currentConcern xmi:type="concern:ConcernDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@concerns/@ownedConcernDescriptions.0"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@filters[name='hide.sequencing.information.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@filters[name='hide.overlappedfunctional.chains.label.filter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_oIYAYPuYEeydbPFqZqhrpw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer"/>
+    <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#f4924c2d-2ae2-42e8-ab19-bcb75865e4da"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>

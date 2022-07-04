@@ -12,6 +12,7 @@
     xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/5.0.0"
     xmlns:org.polarsys.capella.core.data.information.datatype="http://www.polarsys.org/capella/core/information/datatype/5.0.0"
     xmlns:org.polarsys.capella.core.data.information.datavalue="http://www.polarsys.org/capella/core/information/datavalue/5.0.0"
+    xmlns:org.polarsys.capella.core.data.interaction="http://www.polarsys.org/capella/core/interaction/5.0.0"
     xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/5.0.0"
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/5.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/5.0.0"
@@ -42,14 +43,34 @@
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="ed9649e2-a002-43bd-8a97-fd054f922eb6" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-            id="0a02f7c5-636b-4ce4-983e-dc30f4421445" name="Root Operational Activity"/>
+            id="0a02f7c5-636b-4ce4-983e-dc30f4421445" name="Root Operational Activity">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="8778f0e0-7bae-4860-90d9-7f1f9db4f7d3" name="OperationalActivity 1"/>
+        </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
           id="a84009c3-5585-4679-8d83-c78b1b7dffb5" name="Operational Capabilities">
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="084f87b4-2498-4512-be68-26d474db4195" name="Enable human exploration of the moon"/>
+            id="084f87b4-2498-4512-be68-26d474db4195" name="Enable human exploration of the moon">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="78ca42f4-10bc-471a-9f70-b3e806904a67" included="#4073dc3d-51a3-4d0a-a3c5-13f59a6e743d"/>
+        </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="24030687-ce71-43b3-9e6c-5dd642c39afb" name="OperationalCapability 2"/>
+            id="24030687-ce71-43b3-9e6c-5dd642c39afb" name="Provide habitable space for astronauts on the moon">
+          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
+              id="c5e23a33-e39c-46f2-81d1-495fe9102f9b" extended="#084f87b4-2498-4512-be68-26d474db4195"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="4073dc3d-51a3-4d0a-a3c5-13f59a6e743d" name="Enable scientific research on the moon"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="a0f71279-e4f3-4f7d-b755-f23db9d1828c" name="Provide storage capacity"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="06b082eb-597a-4df1-ba31-761d77afa744" name="Provide rover hosting capabilities">
+          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
+              id="9c83a58f-5d6d-49c8-b21d-c5939196f908" extended="#a0f71279-e4f3-4f7d-b755-f23db9d1828c"/>
+          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
+              id="53e15808-2a59-464d-8530-2f681fb3090b" extended="#24030687-ce71-43b3-9e6c-5dd642c39afb"/>
+        </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="e1b92a7c-6e70-4094-a606-686d8ca9b236" name="Interfaces"/>
@@ -58,7 +79,40 @@
       <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="5ff6353a-76ef-4409-b5e1-226ed7e4327f"
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="f4924c2d-2ae2-42e8-ab19-bcb75865e4da"
-          name="Operational Entities"/>
+          name="Operational Entities">
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="63081c57-5cd1-4250-8bcf-474002265038"
+            name="Mission crew" abstractType="#2440b415-164f-4292-ac70-e575f1566c34"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e8955c19-a93b-4f0d-b1b3-aa590e3356f3"
+            name="Mission Control Centre" abstractType="#a7eba328-45d0-4cc6-af78-da2ba23489d4"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="dca220c6-fedf-427b-afa2-5ee07bf62aa2"
+            name="HLS" abstractType="#89085e69-1e58-4fb6-bfd1-229700b234ff"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="9b9083a4-b2a8-4e31-b8e6-5dd03e3e800f"
+            name="Lunar Surface" abstractType="#5c37a407-4229-4a40-8fce-ef59fde79bcc"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="db01457f-6004-42ee-87b8-d2e5b75caa15"
+            name="Mission equipment" abstractType="#a45f6baf-74ee-4508-8a67-ca6c5e86cb82"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="c9cde336-5015-4f97-8d34-6b2a4912b917"
+            name="Mission Stakeholders" abstractType="#05a2f486-7a2c-48fa-9aa4-3814720d7870"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="3955ea94-b66c-404a-8374-03e182b47df5"
+            name="Rover" abstractType="#1895179a-1213-42ca-9e5e-3da09e59ff20"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="2440b415-164f-4292-ac70-e575f1566c34"
+            name="Mission crew">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="65d89b72-8e58-4cea-b8d8-09a6bcc26c02" targetElement="#8778f0e0-7bae-4860-90d9-7f1f9db4f7d3"
+              sourceElement="#2440b415-164f-4292-ac70-e575f1566c34"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a7eba328-45d0-4cc6-af78-da2ba23489d4"
+            name="Mission Control Centre"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="89085e69-1e58-4fb6-bfd1-229700b234ff"
+            name="HLS"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="5c37a407-4229-4a40-8fce-ef59fde79bcc"
+            name="Lunar Surface"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a45f6baf-74ee-4508-8a67-ca6c5e86cb82"
+            name="Mission equipment"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="05a2f486-7a2c-48fa-9aa4-3814720d7870"
+            name="Mission Stakeholders"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="1895179a-1213-42ca-9e5e-3da09e59ff20"
+            name="Rover"/>
+      </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="2e4d0aaa-9f74-485a-9e0e-3eecc03a8bb0" name="System Analysis">
