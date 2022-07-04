@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/5.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_SgT0MPXkEeyVt_E3zOxl6w" selectedViews="_Si4nEPXkEeyVt_E3zOxl6w _SkRuMPXkEeyVt_E3zOxl6w _Spm6IPXkEeyVt_E3zOxl6w _Srl3IPXkEeyVt_E3zOxl6w _SuFxgPXkEeyVt_E3zOxl6w _SukSoPXkEeyVt_E3zOxl6w _Sve4oPXkEeyVt_E3zOxl6w" version="14.6.0.202110251100">
+    <semanticResources>Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).afm</semanticResources>
+    <semanticResources>Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_Si4nEPXkEeyVt_E3zOxl6w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_SkRuMPXkEeyVt_E3zOxl6w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/EPBS.odesign#//@ownedViewpoints[name='EPBS%20architecture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_Spm6IPXkEeyVt_E3zOxl6w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_WCpSgPXkEeyVt_E3zOxl6w" name="[OCB] Operational Capabilities for LISE" repPath="#_WCgIkPXkEeyVt_E3zOxl6w" changeId="44141a3a-f7cb-4eea-9609-51bfa57903a0">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a84009c3-5585-4679-8d83-c78b1b7dffb5"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_Srl3IPXkEeyVt_E3zOxl6w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_SuFxgPXkEeyVt_E3zOxl6w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_SukSoPXkEeyVt_E3zOxl6w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_Sve4oPXkEeyVt_E3zOxl6w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_WCgIkPXkEeyVt_E3zOxl6w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_WC-CoPXkEeyVt_E3zOxl6w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_WC-CofXkEeyVt_E3zOxl6w" type="Sirius" element="_WCgIkPXkEeyVt_E3zOxl6w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XdguAPXkEeyVt_E3zOxl6w" type="2001" element="_Xc1_oPXkEeyVt_E3zOxl6w">
+          <children xmi:type="notation:Node" xmi:id="_XdoCwPXkEeyVt_E3zOxl6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XdoCwfXkEeyVt_E3zOxl6w" x="-12" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xnty4PXkEeyVt_E3zOxl6w" type="3005" element="_Xc8tUPXkEeyVt_E3zOxl6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Xnty4fXkEeyVt_E3zOxl6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xnty4vXkEeyVt_E3zOxl6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XdguAfXkEeyVt_E3zOxl6w" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XdguAvXkEeyVt_E3zOxl6w" x="450" y="170" width="70" height="46"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ljXOYPXkEeyVt_E3zOxl6w" type="2001" element="_ljGIoPXkEeyVt_E3zOxl6w">
+          <children xmi:type="notation:Node" xmi:id="_lja4wPXkEeyVt_E3zOxl6w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_lja4wfXkEeyVt_E3zOxl6w" x="-12" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ljjboPXkEeyVt_E3zOxl6w" type="3005" element="_ljH90PXkEeyVt_E3zOxl6w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ljjbofXkEeyVt_E3zOxl6w" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ljjbovXkEeyVt_E3zOxl6w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ljX1cPXkEeyVt_E3zOxl6w" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ljX1cfXkEeyVt_E3zOxl6w" x="760" y="150" width="70" height="46"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_WC-CovXkEeyVt_E3zOxl6w"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_WDYSUPXkEeyVt_E3zOxl6w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_WDY5YPXkEeyVt_E3zOxl6w"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Xc1_oPXkEeyVt_E3zOxl6w" name="Enable human exploration of the moon" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#084f87b4-2498-4512-be68-26d474db4195"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#084f87b4-2498-4512-be68-26d474db4195"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Xc8tUPXkEeyVt_E3zOxl6w" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ljGIoPXkEeyVt_E3zOxl6w" name="OperationalCapability 2" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#24030687-ce71-43b3-9e6c-5dd642c39afb"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#24030687-ce71-43b3-9e6c-5dd642c39afb"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ljH90PXkEeyVt_E3zOxl6w" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_WChWsPXkEeyVt_E3zOxl6w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer"/>
+    <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a84009c3-5585-4679-8d83-c78b1b7dffb5"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
