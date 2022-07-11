@@ -52,57 +52,25 @@
           id="a84009c3-5585-4679-8d83-c78b1b7dffb5" name="Operational Capabilities">
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="084f87b4-2498-4512-be68-26d474db4195" name="Enable human exploration of the moon">
-          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
-              id="ec30b395-4d35-4124-a18c-782c14b71bfc" extended="#ac520e5b-09c5-4824-baf8-b58d1028bc02"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
-              id="67d7dd40-3177-4eb4-842a-ed7db66413e5" included="#24030687-ce71-43b3-9e6c-5dd642c39afb"/>
+              id="78ca42f4-10bc-471a-9f70-b3e806904a67" included="#4073dc3d-51a3-4d0a-a3c5-13f59a6e743d"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="24030687-ce71-43b3-9e6c-5dd642c39afb" name="Provide habitable space for astronauts on the moon">
           <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
-              id="a3d3ac9b-65ef-4562-84bc-6d30596cd79a" extended="#a0f71279-e4f3-4f7d-b755-f23db9d1828c"/>
+              id="c5e23a33-e39c-46f2-81d1-495fe9102f9b" extended="#084f87b4-2498-4512-be68-26d474db4195"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="4073dc3d-51a3-4d0a-a3c5-13f59a6e743d" name="Enable scientific research on the moon">
+            id="4073dc3d-51a3-4d0a-a3c5-13f59a6e743d" name="Enable scientific research on the moon"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="a0f71279-e4f3-4f7d-b755-f23db9d1828c" name="Provide storage capacity"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="06b082eb-597a-4df1-ba31-761d77afa744" name="Provide rover hosting capabilities">
           <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
-              id="69f9ecfa-262e-43c5-a265-98916c8abe72" extended="#084f87b4-2498-4512-be68-26d474db4195"/>
-        </ownedOperationalCapabilities>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="a0f71279-e4f3-4f7d-b755-f23db9d1828c" name="Provide pressurised storage capacity">
+              id="9c83a58f-5d6d-49c8-b21d-c5939196f908" extended="#a0f71279-e4f3-4f7d-b755-f23db9d1828c"/>
           <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
-              id="be4e7c6e-13e1-429a-bbe5-e5787138bf89" extended="#06b082eb-597a-4df1-ba31-761d77afa744"/>
+              id="53e15808-2a59-464d-8530-2f681fb3090b" extended="#24030687-ce71-43b3-9e6c-5dd642c39afb"/>
         </ownedOperationalCapabilities>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="06b082eb-597a-4df1-ba31-761d77afa744" name="Provide rover hosting capabilities"/>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="1a92144a-d20c-475a-b916-14bba1af11b3" name="Gather scientific data">
-          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
-              id="bd30a67b-f000-4a62-8acd-8ba3614223eb" extended="#4073dc3d-51a3-4d0a-a3c5-13f59a6e743d"/>
-        </ownedOperationalCapabilities>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="70942485-ef15-4cb8-9313-d08b7bddc201" name="Analyse scientific data">
-          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
-              id="59be37f5-4a26-47f7-ab91-b92a3c5116f2" extended="#1a92144a-d20c-475a-b916-14bba1af11b3"/>
-        </ownedOperationalCapabilities>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="ac520e5b-09c5-4824-baf8-b58d1028bc02" name="Prepare for Mars exploration"/>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="ae2c0c0d-cc02-4a26-9d3e-2815b6f63434" name="Manage operations">
-          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
-              id="28439d60-f6dc-4ad0-b3bf-6ed70e7a2401" included="#7d7eac89-aa9d-4fc2-98c9-e73dc1849b74"/>
-          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
-              id="235a70e5-6fa2-4902-8391-e4c5655f4285" included="#d748aaef-6e19-4da7-8350-6cd0ed88694a"/>
-          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
-              id="c9b72b68-6bbe-4847-adb5-f45cc49e8f19" included="#eb1d78c9-fe7d-44cb-962c-07393b1eece4"/>
-        </ownedOperationalCapabilities>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="eb1d78c9-fe7d-44cb-962c-07393b1eece4" name="Scientific missions"/>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="7d7eac89-aa9d-4fc2-98c9-e73dc1849b74" name="Maintenance"/>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="d748aaef-6e19-4da7-8350-6cd0ed88694a" name="Critical operations"/>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="b1d7dc87-587f-40b8-85ef-3afea5eab149" name="Deliver temporary habitat"/>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="e1b92a7c-6e70-4094-a606-686d8ca9b236" name="Interfaces"/>
@@ -260,16 +228,18 @@
           id="3f64fcb6-b86a-4289-adb8-9b3b15cbe5b7" name="Structure">
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="edaef63e-73c5-4dc0-8779-830096e80577"
             name="LISE" abstractType="#0f393a34-0d37-4e07-bb24-9a9ba9cc57c5"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="56472e2b-0511-45db-8e59-664865851216"
-            name="Mission crew" abstractType="#c65d3a26-35d6-431b-a980-af69a3721d4c"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e2ffca22-df3c-496f-a827-24fedb1a74dc"
-            name="MCT" abstractType="#3bbc131e-2c7a-4ac8-91fb-bd5b8181ec32"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="ce083246-d631-474d-be07-0897d933c579"
-            name="Rover" abstractType="#6baa19c5-89ba-4dcd-8752-c6693ce6a067"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="df30c1c9-336f-415e-acb2-12f38fa70120"
-            name="Moon landing site" abstractType="#42677d9c-70cf-4a58-a1a0-027f99859014"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="4857c907-8dc2-4970-8154-f8416e5a61ef"
+            name="Control Centre" abstractType="#ce81ed1f-6560-4d57-80d4-62c1579a38da"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="edd0c84e-17b2-4230-a384-d9ded72f7491"
+            name="Lander" abstractType="#4da52bab-cdce-45f7-b5d4-4e811a6683b3"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="582c2c82-aedc-4415-be53-425167332a4a"
+            name="Other Communication relay" abstractType="#a0098c92-b2e7-4ea7-8fd6-df3e932fb4b7"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="f01ef1fa-55f1-4b3d-bc1a-4f4dbce3a1e6"
+            name="Crew" abstractType="#ba06c01a-19b9-4a8b-8f8c-b7fa62f20214"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d8831895-68d3-44fd-bc43-708df1793dee"
+            name="Lunar Surface vehicle" abstractType="#56f00f02-277d-4da9-8571-002f89464dfa"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="0f393a34-0d37-4e07-bb24-9a9ba9cc57c5" name="LISE" summary="Lunar Integrated Shelter for Exploration">
+            id="0f393a34-0d37-4e07-bb24-9a9ba9cc57c5" name="LISE">
           <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
               id="24deb344-14de-4a08-8649-bde87bb464d0" name="System State Machine">
             <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
@@ -277,22 +247,17 @@
           </ownedStateMachines>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="c65d3a26-35d6-431b-a980-af69a3721d4c" name="Mission crew" actor="true">
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9119c441-d079-4660-8732-88664f35fa48"
-              name="Astronaut 1" abstractType="#bee3d286-2136-450f-aabf-b26fc0319654"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9c6fd235-577c-4890-b00a-e16c1561df82"
-              name="Astronaut 2" abstractType="#67fa1b8b-9173-45ed-8197-0e4bae63ffb6"/>
-          <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-              id="bee3d286-2136-450f-aabf-b26fc0319654" name="Astronaut 1" actor="true"/>
-          <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-              id="67fa1b8b-9173-45ed-8197-0e4bae63ffb6" name="Astronaut 2" actor="true"/>
-        </ownedSystemComponents>
+            id="ce81ed1f-6560-4d57-80d4-62c1579a38da" name="Control Centre" actor="true"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="3bbc131e-2c7a-4ac8-91fb-bd5b8181ec32" name="MCT" actor="true"/>
+            id="4da52bab-cdce-45f7-b5d4-4e811a6683b3" name="Lander" actor="true"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="6baa19c5-89ba-4dcd-8752-c6693ce6a067" name="Rover" actor="true"/>
+            id="a0098c92-b2e7-4ea7-8fd6-df3e932fb4b7" name="Other Communication relay"
+            actor="true"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="42677d9c-70cf-4a58-a1a0-027f99859014" name="Moon landing site" actor="true"/>
+            id="ba06c01a-19b9-4a8b-8f8c-b7fa62f20214" name="Crew" actor="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="56f00f02-277d-4da9-8571-002f89464dfa" name="Lunar Surface vehicle"
+            actor="true"/>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="e8f7b3f5-269a-48aa-8a8e-969ca319e5a9"
           name="Missions"/>
