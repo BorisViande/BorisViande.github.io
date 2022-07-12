@@ -52,25 +52,58 @@
           id="a84009c3-5585-4679-8d83-c78b1b7dffb5" name="Operational Capabilities">
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="084f87b4-2498-4512-be68-26d474db4195" name="Enable human exploration of the moon">
-          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
-              id="78ca42f4-10bc-471a-9f70-b3e806904a67" included="#4073dc3d-51a3-4d0a-a3c5-13f59a6e743d"/>
+          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
+              id="3834485b-2237-49ab-af44-9752740e1e24" extended="#4073dc3d-51a3-4d0a-a3c5-13f59a6e743d"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="24030687-ce71-43b3-9e6c-5dd642c39afb" name="Provide habitable space for astronauts on the moon">
           <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
-              id="c5e23a33-e39c-46f2-81d1-495fe9102f9b" extended="#084f87b4-2498-4512-be68-26d474db4195"/>
+              id="2a8dc379-9515-47ed-9b0a-78fcefba97b2" extended="#084f87b4-2498-4512-be68-26d474db4195"/>
+          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
+              id="64dd12a8-b853-47a2-907c-76411549f4d3" extended="#a0f71279-e4f3-4f7d-b755-f23db9d1828c"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="4073dc3d-51a3-4d0a-a3c5-13f59a6e743d" name="Enable scientific research on the moon"/>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="a0f71279-e4f3-4f7d-b755-f23db9d1828c" name="Provide storage capacity"/>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="06b082eb-597a-4df1-ba31-761d77afa744" name="Provide rover hosting capabilities">
-          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
-              id="9c83a58f-5d6d-49c8-b21d-c5939196f908" extended="#a0f71279-e4f3-4f7d-b755-f23db9d1828c"/>
-          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
-              id="53e15808-2a59-464d-8530-2f681fb3090b" extended="#24030687-ce71-43b3-9e6c-5dd642c39afb"/>
+            id="4073dc3d-51a3-4d0a-a3c5-13f59a6e743d" name="Enable scientific research on the moon">
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="89a0dfd5-6e44-4010-b672-49a6cbeb0318" included="#1b7bae9d-a381-4a4b-8d37-eb473955c04c"/>
+          <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
+              id="396f178e-a6e5-4758-90f6-3a768eb983ab" included="#ce631cca-d692-4553-a48e-3ff0fe06cfad"/>
         </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="a0f71279-e4f3-4f7d-b755-f23db9d1828c" name="Provide pressurised storage capacity">
+          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
+              id="fd68e929-247b-44c0-b94b-2ec637c7b90b" extended="#06b082eb-597a-4df1-ba31-761d77afa744"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="06b082eb-597a-4df1-ba31-761d77afa744" name="Provide rover hosting capabilities"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="1b7bae9d-a381-4a4b-8d37-eb473955c04c" name="Produce scientific data"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="ce631cca-d692-4553-a48e-3ff0fe06cfad" name="Analyse scientific data"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="0307a90e-aa93-4989-b4be-bebb4d3e8614" name="Manage operations"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="4678e357-8719-4bb0-9bbf-704128f1a330" name="Critical operations">
+          <superGeneralizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityGeneralization"
+              id="584b5e8d-c1f8-4204-8124-d0ab15f41383" super="#0307a90e-aa93-4989-b4be-bebb4d3e8614"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="c69b0946-c19f-4152-a322-007f93f63205" name="Mailntenance operations">
+          <superGeneralizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityGeneralization"
+              id="0e1a3f9b-83a4-4f15-bddc-f7d9ca31887e" super="#0307a90e-aa93-4989-b4be-bebb4d3e8614"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="4fa927f3-e423-42d9-aeb2-011fb0054e54" name="Scientific operations">
+          <superGeneralizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityGeneralization"
+              id="faf6fa58-2891-46e8-bc8b-c3638449f528" super="#0307a90e-aa93-4989-b4be-bebb4d3e8614"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="a2fb85d3-d839-4847-ae21-dc5114c39666" name="Increase exploration area">
+          <extends xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityExtend"
+              id="5f3adeb0-161a-4774-b765-6c9c181d0a4b" extended="#084f87b4-2498-4512-be68-26d474db4195"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="663bc618-91cd-4f8a-9190-a62fa6bfe343" name="Support remote communication"/>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="e1b92a7c-6e70-4094-a606-686d8ca9b236" name="Interfaces"/>
