@@ -579,6 +579,8 @@
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="ce4613f9-c034-4fb6-89fd-092e74cf2543" name="In : current"/>
           </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="a9c64507-8134-4c04-b9b3-08bcfd93359e" name="Maintain O2"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="d5916b22-705a-4c80-adb1-4dc36fe41900" targetElement="#2e18e36f-56da-44d7-8257-46e6c6d497ad"
               sourceElement="#68ea48f6-20c5-410f-8578-20c37fc0f256"/>
@@ -638,7 +640,11 @@
             <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
                 id="78c01385-4dcd-4d9e-aeb1-4c88aee9b73f" name="Waste management"/>
             <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-                id="baf1ba48-8e7e-4f39-b63d-093ade671794" name="Atmosphere management"/>
+                id="baf1ba48-8e7e-4f39-b63d-093ade671794" name="Atmosphere management">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="ecc0615c-516e-4084-9cc2-1837d78e37f9" targetElement="#a9c64507-8134-4c04-b9b3-08bcfd93359e"
+                  sourceElement="#baf1ba48-8e7e-4f39-b63d-093ade671794"/>
+            </ownedLogicalComponents>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="11f84982-630d-451d-9088-682d6990793b" name="TCS"/>
