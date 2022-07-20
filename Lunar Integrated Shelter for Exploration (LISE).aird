@@ -15,7 +15,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a84009c3-5585-4679-8d83-c78b1b7dffb5"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oIdf8PuYEeydbPFqZqhrpw" name="[OAB] Operational Architecture" repPath="#_oIWLMPuYEeydbPFqZqhrpw" changeId="32191837-8992-4fd0-94ca-2ace72f90816">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oIdf8PuYEeydbPFqZqhrpw" name="[OAB] Operational Architecture" repPath="#_oIWLMPuYEeydbPFqZqhrpw" changeId="340b1131-b738-4816-8152-9d7c276ce2cf">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#f4924c2d-2ae2-42e8-ab19-bcb75865e4da"/>
       </ownedRepresentationDescriptors>
@@ -1278,7 +1278,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4tBcgZ-Ee2bc5YZ_yCp-Q"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_Y2SmoQZ-Ee2bc5YZ_yCp-Q" fontColor="4210779" fontName=".SF NS" fontHeight="14"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4iCUAZ-Ee2bc5YZ_yCp-Q" x="395" y="95" width="131" height="99"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4iCUAZ-Ee2bc5YZ_yCp-Q" x="395" y="84" width="131" height="99"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_M7YHQAaTEe2bc5YZ_yCp-Q" type="3007" element="_M7CJAAaTEe2bc5YZ_yCp-Q">
               <children xmi:type="notation:Node" xmi:id="_M7YuUAaTEe2bc5YZ_yCp-Q" type="5003">
