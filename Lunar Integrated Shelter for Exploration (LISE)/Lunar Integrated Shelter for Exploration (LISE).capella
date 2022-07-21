@@ -432,6 +432,18 @@
           id="b691bea1-3d5d-48b8-ae15-10bd0227e41c" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="2e18e36f-56da-44d7-8257-46e6c6d497ad" name="Root System Function">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="3a2e1166-cc0b-4f67-97a3-288f8a4650cf" name="Provide habitable volume"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="517d2aa0-6f0f-44b5-bdc0-6633621ddc93" name="Provide communication capability"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="1a768e09-0471-483f-9e82-9c45f73104ba" name="Provide storgage"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="4e2a13a6-c6ba-4a3b-ba11-46e1fee8a9ac" name="Enable EVA"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="bb1a7175-36c4-4856-9637-580f389e833d" name="Provide radiation protection"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="f2fd024f-32e7-44c6-b079-4f897af44ae9" name=""/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="182d5254-8532-4b15-a213-fe0f2ff494f0" targetElement="#0a02f7c5-636b-4ce4-983e-dc30f4421445"
               sourceElement="#2e18e36f-56da-44d7-8257-46e6c6d497ad"/>
@@ -554,6 +566,24 @@
             name="HLS" abstractType="#8da93199-a5f3-485c-89ad-823ec007940a"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="0f393a34-0d37-4e07-bb24-9a9ba9cc57c5" name="LISE">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="223d6725-4f84-44cc-a923-54d9c3bb9e31" targetElement="#3a2e1166-cc0b-4f67-97a3-288f8a4650cf"
+              sourceElement="#0f393a34-0d37-4e07-bb24-9a9ba9cc57c5"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="d517c873-f744-4b61-8927-3dd65732d175" targetElement="#517d2aa0-6f0f-44b5-bdc0-6633621ddc93"
+              sourceElement="#0f393a34-0d37-4e07-bb24-9a9ba9cc57c5"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="8aec41a3-97a0-4e15-8bc6-01dc6d86adad" targetElement="#1a768e09-0471-483f-9e82-9c45f73104ba"
+              sourceElement="#0f393a34-0d37-4e07-bb24-9a9ba9cc57c5"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="f8e7e18c-afd4-4a92-a3dc-6ae69640c022" targetElement="#4e2a13a6-c6ba-4a3b-ba11-46e1fee8a9ac"
+              sourceElement="#0f393a34-0d37-4e07-bb24-9a9ba9cc57c5"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="d5ba4980-7e6e-450f-8d5d-4d3f89ab9d86" targetElement="#bb1a7175-36c4-4856-9637-580f389e833d"
+              sourceElement="#0f393a34-0d37-4e07-bb24-9a9ba9cc57c5"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="2e05bbcd-d369-4bc6-9f09-61425f1b069b" targetElement="#f2fd024f-32e7-44c6-b079-4f897af44ae9"
+              sourceElement="#0f393a34-0d37-4e07-bb24-9a9ba9cc57c5"/>
           <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
               id="24deb344-14de-4a08-8649-bde87bb464d0" name="System State Machine">
             <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
