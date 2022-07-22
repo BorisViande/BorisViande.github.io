@@ -433,9 +433,9 @@
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="2e18e36f-56da-44d7-8257-46e6c6d497ad" name="Root System Function">
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="3a2e1166-cc0b-4f67-97a3-288f8a4650cf" name="Provide habitable volume"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="517d2aa0-6f0f-44b5-bdc0-6633621ddc93" name="Provide communication capability"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="3a2e1166-cc0b-4f67-97a3-288f8a4650cf" name="Provide habitable volume"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="1a768e09-0471-483f-9e82-9c45f73104ba" name="Provide storgage"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
