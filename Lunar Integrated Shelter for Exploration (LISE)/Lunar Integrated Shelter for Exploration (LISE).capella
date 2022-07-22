@@ -443,7 +443,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="bb1a7175-36c4-4856-9637-580f389e833d" name="Provide radiation protection"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="f2fd024f-32e7-44c6-b079-4f897af44ae9" name=""/>
+              id="f2fd024f-32e7-44c6-b079-4f897af44ae9" name="Provide autonomous system monitoring"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="182d5254-8532-4b15-a213-fe0f2ff494f0" targetElement="#0a02f7c5-636b-4ce4-983e-dc30f4421445"
               sourceElement="#2e18e36f-56da-44d7-8257-46e6c6d497ad"/>
