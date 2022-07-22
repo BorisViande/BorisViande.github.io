@@ -40,7 +40,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_SukSoPXkEeyVt_E3zOxl6w">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_S8tdMAElEe2za6EShWr5vA" name="[SAB] LISE Architecture (Black Box)" repPath="#_S8k6UAElEe2za6EShWr5vA" changeId="a7739d2a-9e7a-45eb-9d2b-08d32c171851">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_S8tdMAElEe2za6EShWr5vA" name="[SAB] LISE Architecture (Black Box)" repPath="#_S8k6UAElEe2za6EShWr5vA" changeId="a4fbd583-0478-4133-aebc-da05f13e8f55">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#3f64fcb6-b86a-4289-adb8-9b3b15cbe5b7"/>
       </ownedRepresentationDescriptors>
@@ -2732,7 +2732,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SiFpMgjlEe2TbKEP9N7Kag"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_SfqnUQjlEe2TbKEP9N7Kag" fontColor="3038217" fontName=".SF NS" fontHeight="10"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ShyuQAjlEe2TbKEP9N7Kag" x="161" y="223" width="108" height="50"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ShyuQAjlEe2TbKEP9N7Kag" x="175" y="224" width="108" height="50"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_UbjsQAjlEe2TbKEP9N7Kag" type="3007" element="_UaPdogjlEe2TbKEP9N7Kag">
               <children xmi:type="notation:Node" xmi:id="_UbmvkAjlEe2TbKEP9N7Kag" type="5003">
