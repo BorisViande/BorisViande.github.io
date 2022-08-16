@@ -1286,7 +1286,7 @@
                 <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                     id="2d181b6d-6d42-421c-b2fa-81dfd4b06023" name="region" involvedStates="#84ff34de-e0ba-4053-81db-217a55eb6cf0 #e4d2f0f7-05ee-42d6-8dff-086878cce8f3 #50a0e654-1d1b-439e-b0da-d9a7f0b628eb #8108f48b-415a-4e0e-9d18-8251017ae1e3 #6874ed9c-27b0-4aca-bd8e-81576bda294e">
                   <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                      id="84ff34de-e0ba-4053-81db-217a55eb6cf0" name="Prepare for unoccupation">
+                      id="84ff34de-e0ba-4053-81db-217a55eb6cf0" name="Prepare for inoccupation">
                     <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                         id="31d896c7-df44-427c-bd77-444195a2a986" name="region"/>
                   </ownedStates>
