@@ -800,6 +800,8 @@
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="f710c189-ee21-451b-9c05-20e1be546222" name="FOP 1"/>
           </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="a4281e7d-2c06-4248-817d-f2236ba337de" name="Provide tilt"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="182d5254-8532-4b15-a213-fe0f2ff494f0" targetElement="#0a02f7c5-636b-4ce4-983e-dc30f4421445"
               sourceElement="#2e18e36f-56da-44d7-8257-46e6c6d497ad"/>
@@ -1635,6 +1637,9 @@
               sourceElement="#918f7b02-e511-4857-8381-e27856d51a70"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="808f97d5-d209-43fe-9d33-4d18ee90e65a" targetElement="#488d1bd1-4ca5-4cba-b151-b571ab5e8a01"
+              sourceElement="#918f7b02-e511-4857-8381-e27856d51a70"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="82de7c4b-69f9-4c2a-956c-c066f5fae41c" targetElement="#a4281e7d-2c06-4248-817d-f2236ba337de"
               sourceElement="#918f7b02-e511-4857-8381-e27856d51a70"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="0a4c19a9-e8ba-49f8-9603-9978d00f1925" name="CP 1" orientation="OUT"
