@@ -15,7 +15,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#a84009c3-5585-4679-8d83-c78b1b7dffb5"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oIdf8PuYEeydbPFqZqhrpw" name="[OAB] Operational Architecture LISE 3" repPath="#_oIWLMPuYEeydbPFqZqhrpw" changeId="a6eb4024-1926-4c4e-a2b1-40c5dca19334">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_oIdf8PuYEeydbPFqZqhrpw" name="[OAB] Operational Architecture LISE 3" repPath="#_oIWLMPuYEeydbPFqZqhrpw" changeId="005d8fcf-314c-469d-8317-f1168aa720d0">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#f4924c2d-2ae2-42e8-ab19-bcb75865e4da"/>
       </ownedRepresentationDescriptors>
@@ -27,7 +27,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Breakdown']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#1b1a55be-1524-457f-8389-1ba9e979af5b"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_h_LSUDNjEe2oHKNc8LOY9w" name="[OABD] Root Operational Activity" repPath="#_h-7asDNjEe2oHKNc8LOY9w" changeId="5ec8d0b0-baee-4edd-a317-20b377c82bf5">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_h_LSUDNjEe2oHKNc8LOY9w" name="[OABD] Root Operational Activity" repPath="#_h-7asDNjEe2oHKNc8LOY9w" changeId="b8557ea3-5657-43af-b0a7-f5cd922de6c4">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Breakdown']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#0a02f7c5-636b-4ce4-983e-dc30f4421445"/>
       </ownedRepresentationDescriptors>
@@ -88,7 +88,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#473d0d69-6b67-43ff-a8e9-c9093a781dad"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Db9AkDNjEe2oHKNc8LOY9w" name="New System Functions - Operational Activities" repPath="#_DbGsADNjEe2oHKNc8LOY9w" changeId="1934e488-8513-4f7f-8e6d-f05a0ace0ae0">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Db9AkDNjEe2oHKNc8LOY9w" name="New System Functions - Operational Activities" repPath="#_DbGsADNjEe2oHKNc8LOY9w" changeId="6b96e25a-f045-4f8e-8447-4f78376fe192">
         <description xmi:type="description_2:CrossTableDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Functions%20-%20Operational%20Activities']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#2e4d0aaa-9f74-485a-9e0e-3eecc03a8bb0"/>
       </ownedRepresentationDescriptors>
@@ -2676,7 +2676,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@subNodeMappings[name='OAB_Activity']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_9J5QQCkoEe2d48yCXYzTzg" name="OperationalActivity 45" width="7" height="7" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_9J5QQCkoEe2d48yCXYzTzg" name="Define experiment" width="7" height="7" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#46e79097-bd29-4b5f-a41d-4169f05ec57c"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#46e79097-bd29-4b5f-a41d-4169f05ec57c"/>
         <ownedStyle xmi:type="diagram:Square" uid="_9J53UCkoEe2d48yCXYzTzg" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" color="247,218,116">
@@ -17868,7 +17868,7 @@
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#f390248f-51c7-4d98-94a7-dc30b33903ad"/>
       <originMapping xmi:type="description_2:ElementColumnMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Functions%20-%20Operational%20Activities']/@ownedColumnMappings.0"/>
     </columns>
-    <columns xmi:type="table:DTargetColumn" uid="_DblNVzNjEe2oHKNc8LOY9w" label="OperationalActivity 45" cells="_Db8ZgTNjEe2oHKNc8LOY9w" width="148">
+    <columns xmi:type="table:DTargetColumn" uid="_DblNVzNjEe2oHKNc8LOY9w" label="Define experiment" cells="_Db8ZgTNjEe2oHKNc8LOY9w" width="148">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#46e79097-bd29-4b5f-a41d-4169f05ec57c"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#46e79097-bd29-4b5f-a41d-4169f05ec57c"/>
       <originMapping xmi:type="description_2:ElementColumnMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Functions%20-%20Operational%20Activities']/@ownedColumnMappings.0"/>
@@ -19449,7 +19449,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Activity%20Breakdown']/@defaultLayer/@nodeMappings[name='OAB_OperationalActivity']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_iAzqATNjEe2oHKNc8LOY9w" name="OperationalActivity 45" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_iAzqATNjEe2oHKNc8LOY9w" name="Define experiment" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#46e79097-bd29-4b5f-a41d-4169f05ec57c"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Lunar%20Integrated%20Shelter%20for%20Exploration%20(LISE).capella#46e79097-bd29-4b5f-a41d-4169f05ec57c"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>

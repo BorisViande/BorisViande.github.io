@@ -113,7 +113,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="f390248f-51c7-4d98-94a7-dc30b33903ad" name="Define procedures"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="46e79097-bd29-4b5f-a41d-4169f05ec57c" name="OperationalActivity 45"/>
+              id="46e79097-bd29-4b5f-a41d-4169f05ec57c" name="Define experiment"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="84ebceaf-eadd-44be-bc8b-96eeaa19b69a" name="Charge"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
