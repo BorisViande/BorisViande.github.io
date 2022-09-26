@@ -635,6 +635,12 @@
         id="2e4d0aaa-9f74-485a-9e0e-3eecc03a8bb0" name="System Analysis">
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
           id="b691bea1-3d5d-48b8-ae15-10bd0227e41c" name="System Functions">
+        <ownedCategories xsi:type="org.polarsys.capella.core.data.fa:ExchangeCategory"
+            id="ce9c6743-f108-411d-a0bf-8333215341fd" name="Data" exchanges="#f0ec6d43-d003-466d-b4a5-2e5630990fe3 #867198d2-de71-4bf0-ba04-0b4253e10a2c"/>
+        <ownedCategories xsi:type="org.polarsys.capella.core.data.fa:ExchangeCategory"
+            id="583a9702-6147-4b38-8cc2-fdbacbed0097" name="Plan" exchanges="#5d5c43fb-64a8-43b4-ae95-4bc5dbdfb0a7 #671f9de7-6a52-473f-8c72-c21e05c0abb1 #347a27cd-928e-44c2-8e0b-0568e715e9e1"/>
+        <ownedCategories xsi:type="org.polarsys.capella.core.data.fa:ExchangeCategory"
+            id="872b9bcd-da1d-4fb5-b7c4-538d148f8c54" name="Waste" exchanges="#30573cca-16ef-41c8-8414-8e95b95cf021 #1ed5aa21-0fdc-432c-874a-56584be8c946 #8e5b1d1a-7c9c-46e4-bc28-9746667adadc #133c7200-32d7-4e63-9043-26a1b36cc335 #48eaeec3-dcc0-4b24-89ba-31e3b7088d8a #f6a6fd86-755d-4a90-98b8-bab63863152d #4ddcdd50-39d6-4a08-85ab-094f613973e1 #dc82f020-4194-4380-91d1-13d25c6d4a74"/>
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="2e18e36f-56da-44d7-8257-46e6c6d497ad" name="Root System Function">
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
