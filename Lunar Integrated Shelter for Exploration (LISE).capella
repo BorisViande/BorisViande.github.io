@@ -718,38 +718,6 @@
                 id="889c41a8-77bb-46fa-970c-0fcca70459b3" involved="#6807465e-bab1-4ace-baab-491f4fa9e993"/>
           </ownedFunctionalChains>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="2e72e0fd-f1da-465f-8280-f19120b553a8" name="Select exploration area">
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="4fcb1d02-ff37-499f-8862-bb5c7848e7ed" name="outArea to explore"/>
-            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
-                id="42921d61-0f02-41a0-a977-d7ddd3302afa" targetElement="#feb9134a-e9a9-4382-abd6-62c15ec960fe"
-                sourceElement="#2e72e0fd-f1da-465f-8280-f19120b553a8"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="e180c88a-5126-4058-bdd2-7f1d276ec7d3" name="Define operations">
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="217b44d5-07c9-48d9-9652-5a166f85c137" name="outooperation procedures"/>
-            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
-                id="3b7b4822-4084-4028-af8a-b2c041aedc44" targetElement="#48fea974-39e5-4bbf-935e-87ddb955eae8"
-                sourceElement="#e180c88a-5126-4058-bdd2-7f1d276ec7d3"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="ff002370-1137-4457-bebf-473280db4aac" name="Define procedures">
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="63023bc6-8bc2-4390-bd29-0893270f3e17" name="outEVA procedures"/>
-            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
-                id="fbe2ea78-6381-4db3-bfd6-83654447c419" targetElement="#f390248f-51c7-4d98-94a7-dc30b33903ad"
-                sourceElement="#ff002370-1137-4457-bebf-473280db4aac"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="546e453d-4664-48ea-8205-d03f4dfaf58e" name="Define experiment">
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="a4fd15e2-a63e-4b44-af3f-ab77ecbc6a27" name="outExperimental protocol"/>
-            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
-                id="5843b7ca-7615-41a3-a493-8ea706b93cba" targetElement="#46e79097-bd29-4b5f-a41d-4169f05ec57c"
-                sourceElement="#546e453d-4664-48ea-8205-d03f4dfaf58e"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="1a29f2f7-d02c-4bae-9c79-4f7f6e4ec7f4" name="Perform lunar environment functions">
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
                 id="88c6387c-587b-4119-9c4a-ced76a32356c" name="Provide in-situ ressources">
@@ -1407,17 +1375,14 @@
                   sourceElement="#bab7aeb4-dfd6-4976-9666-464acfd0e624"/>
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-                id="ba7c6d90-391f-4c27-b12e-33b13adf60c8" name="Autonomous docking">
-              <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
-                  id="bf3d419f-13f2-4a63-9b90-471828e4244e" targetElement="#059440fe-92e8-4ef0-abc8-fae03c04aa4f"
-                  sourceElement="#ba7c6d90-391f-4c27-b12e-33b13adf60c8"/>
-            </ownedFunctions>
-            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-                id="cff2a9b6-d1df-47cb-8162-9e9312b8f029" name="Connect to the external connector">
+                id="cff2a9b6-d1df-47cb-8162-9e9312b8f029" name="Autonomous docking">
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="1678a7ea-b2d2-4aec-9c5e-266fbb33c140" name="FIP 1"/>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                   id="ce4217c1-4859-4196-bce3-623c8ec265c7" name="FOP 1"/>
+              <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                  id="3ec69190-eb5f-4038-95e8-804af2ce0469" targetElement="#059440fe-92e8-4ef0-abc8-fae03c04aa4f"
+                  sourceElement="#cff2a9b6-d1df-47cb-8162-9e9312b8f029"/>
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
                 id="f121ca59-ab01-4181-92be-d6c6e0841056" name="Explore lunar surface">
@@ -1481,26 +1446,64 @@
             </ownedFunctions>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="1e9bfbf0-ea1b-4a23-b8c2-cd480431213c" name="Analyse scientific data">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="3fe4ace6-2929-4732-b38e-37c12cc4b3d7" name="inExperimental data"/>
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="fadf11f9-ca8c-45fc-b2bc-567723d23e51" name="inScientific data"/>
-            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
-                id="69dcdccd-966f-4815-adfd-705dd81b8abd" targetElement="#5d44ec43-04bb-4b96-bd03-b9112adbcc80"
-                sourceElement="#1e9bfbf0-ea1b-4a23-b8c2-cd480431213c"/>
+              id="768cb3f5-bf08-43da-9b11-7f439ac70abc" name="Perform space suit functions">
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="2713cb53-38fd-48d9-9165-30011b826e09" name="Provide temporary environmental protection"/>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="c2c56519-39df-4718-860a-4622333bf67b" name="Gather physiological data"/>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="b2821ee1-b809-4919-9923-183549951d6d" name="Communicate"/>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="cedb2b5c-fb7a-45dd-9c1d-a948839236d0" name="Gather dust">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="a9d06b7d-0d71-4cce-9260-a4febb14b997" name="FIP 1"/>
+            </ownedFunctions>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="cedb2b5c-fb7a-45dd-9c1d-a948839236d0" name="Gather dust">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="a9d06b7d-0d71-4cce-9260-a4febb14b997" name="FIP 1"/>
+              id="25265283-8558-4a17-b704-2d09f02291ea" name="Perform mission stakeholder functions">
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="546e453d-4664-48ea-8205-d03f4dfaf58e" name="Define experiment">
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="a4fd15e2-a63e-4b44-af3f-ab77ecbc6a27" name="outExperimental protocol"/>
+              <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                  id="5843b7ca-7615-41a3-a493-8ea706b93cba" targetElement="#46e79097-bd29-4b5f-a41d-4169f05ec57c"
+                  sourceElement="#546e453d-4664-48ea-8205-d03f4dfaf58e"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="ff002370-1137-4457-bebf-473280db4aac" name="Define procedures">
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="63023bc6-8bc2-4390-bd29-0893270f3e17" name="outEVA procedures"/>
+              <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                  id="fbe2ea78-6381-4db3-bfd6-83654447c419" targetElement="#f390248f-51c7-4d98-94a7-dc30b33903ad"
+                  sourceElement="#ff002370-1137-4457-bebf-473280db4aac"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="e180c88a-5126-4058-bdd2-7f1d276ec7d3" name="Define operations">
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="217b44d5-07c9-48d9-9652-5a166f85c137" name="outooperation procedures"/>
+              <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                  id="3b7b4822-4084-4028-af8a-b2c041aedc44" targetElement="#48fea974-39e5-4bbf-935e-87ddb955eae8"
+                  sourceElement="#e180c88a-5126-4058-bdd2-7f1d276ec7d3"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="2e72e0fd-f1da-465f-8280-f19120b553a8" name="Select exploration area">
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="4fcb1d02-ff37-499f-8862-bb5c7848e7ed" name="outArea to explore"/>
+              <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                  id="42921d61-0f02-41a0-a977-d7ddd3302afa" targetElement="#feb9134a-e9a9-4382-abd6-62c15ec960fe"
+                  sourceElement="#2e72e0fd-f1da-465f-8280-f19120b553a8"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="1e9bfbf0-ea1b-4a23-b8c2-cd480431213c" name="Analyse scientific data">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="3fe4ace6-2929-4732-b38e-37c12cc4b3d7" name="inExperimental data"/>
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="fadf11f9-ca8c-45fc-b2bc-567723d23e51" name="inScientific data"/>
+              <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                  id="69dcdccd-966f-4815-adfd-705dd81b8abd" targetElement="#5d44ec43-04bb-4b96-bd03-b9112adbcc80"
+                  sourceElement="#1e9bfbf0-ea1b-4a23-b8c2-cd480431213c"/>
+            </ownedFunctions>
           </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="2713cb53-38fd-48d9-9165-30011b826e09" name="Provide temporary environmental protection"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="c2c56519-39df-4718-860a-4622333bf67b" name="Gather physiological data"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="b2821ee1-b809-4919-9923-183549951d6d" name="Communicate"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="182d5254-8532-4b15-a213-fe0f2ff494f0" targetElement="#0a02f7c5-636b-4ce4-983e-dc30f4421445"
               sourceElement="#2e18e36f-56da-44d7-8257-46e6c6d497ad"/>
@@ -2526,9 +2529,6 @@ Astronaut cmd = OK</bodies>
               id="a230737e-2e28-40e4-af97-605336f347ab" targetElement="#daf62e76-cf57-47d6-9ff2-3ac6381af9a8"
               sourceElement="#ba06c01a-19b9-4a8b-8f8c-b7fa62f20214"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="24ec588f-0636-41c4-9f6f-a536c3d68a63" targetElement="#ba7c6d90-391f-4c27-b12e-33b13adf60c8"
-              sourceElement="#ba06c01a-19b9-4a8b-8f8c-b7fa62f20214"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="c054c4f7-1cc4-4d5d-8f82-de0244a0e0aa" targetElement="#f121ca59-ab01-4181-92be-d6c6e0841056"
               sourceElement="#ba06c01a-19b9-4a8b-8f8c-b7fa62f20214"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
@@ -2640,9 +2640,6 @@ Astronaut cmd = OK</bodies>
               sourceElement="#473d0d69-6b67-43ff-a8e9-c9093a781dad"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="107c1751-7d4b-470c-8b59-91bba3c83693" targetElement="#daec1dc8-220f-4bb6-9ad7-35da029ad3d4"
-              sourceElement="#473d0d69-6b67-43ff-a8e9-c9093a781dad"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="147295fe-41a6-42a8-85aa-bb18a1d0272b" targetElement="#cedb2b5c-fb7a-45dd-9c1d-a948839236d0"
               sourceElement="#473d0d69-6b67-43ff-a8e9-c9093a781dad"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="b7e2332d-3ff3-4114-9a4c-913ce35c9adf" name="CP 1" orientation="OUT"
@@ -2758,6 +2755,9 @@ Astronaut cmd = OK</bodies>
               sourceElement="#3f308a18-6da0-424f-ab0d-47183f1cf4a8"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="eb55df44-06e3-4594-b77c-e4438f12399f" targetElement="#b2821ee1-b809-4919-9923-183549951d6d"
+              sourceElement="#3f308a18-6da0-424f-ab0d-47183f1cf4a8"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="147295fe-41a6-42a8-85aa-bb18a1d0272b" targetElement="#cedb2b5c-fb7a-45dd-9c1d-a948839236d0"
               sourceElement="#3f308a18-6da0-424f-ab0d-47183f1cf4a8"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="b090f190-319e-43e7-a855-ca2158847d02" targetElement="#a45f6baf-74ee-4508-8a67-ca6c5e86cb82"
